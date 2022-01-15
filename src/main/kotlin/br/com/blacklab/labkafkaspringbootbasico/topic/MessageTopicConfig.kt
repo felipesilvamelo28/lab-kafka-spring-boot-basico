@@ -21,6 +21,6 @@ class KafkaTopicConfig {
 
     @Bean
     fun topic1(): NewTopic {
-        return NewTopic("message", 2, 1.toShort())
+        return NewTopic("message-topic", 2, 1.toShort())
     }
 }
